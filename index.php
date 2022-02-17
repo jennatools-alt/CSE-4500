@@ -3,10 +3,6 @@
     $json_data = json_decode($json_file,true);
 ?>
 
-<?
-   $name = "Kevin";
-   echo "Hello ".$name;
-?>
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
