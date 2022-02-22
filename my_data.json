@@ -1,10 +1,10 @@
 {
-  "first-name": "Firstname",
-  "last-name": "Lastname",
+  "first-name": "Kevin",
+  "last-name": "Gomez",
   "address": "5500 University Pkwy, San Bernardino, CA 92407",
   "phone": "(123)456-7890",
-  "email": "name@mail.com",
-  "introduction": "A introduction of youself ...",
+  "email": "kevingomez554@gmail.com",
+  "introduction": "Hello! I'm a third-year computer science student. Pls hire me.",
   "experience":[
     {
       "title":"WEB DEVELOPER",
@@ -13,10 +13,10 @@
       "description":"A description of your experience with this job."
     },
     {
-      "title":"APPLICATION DEVELOPER",
-      "employer":"CSUSB",
-      "period":"March 2018 - 2021",
-      "description":"A description of your experience with this job."
+      "title":"Food Delivery Driver",
+      "employer":"DoorDash",
+      "period":"March 2019 - Present",
+      "description":"I deliver food to customers who order food through the app."
     }
   ]
 }
