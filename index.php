@@ -42,7 +42,15 @@
       <div id="education" class="content-item">
         <div class="vertical-center">
           <h2>Education</h2>
-          <p>...</p>
+           <?php foreach($json_data['education'] AS $education) { ?>
+              <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="flex-grow-1">
+                  <h3 class="mb-0"><?php echo $education['college']; ?></h3>
+                  <div class="subheading mb-3"><?php echo $experience['year-standing']; ?></div>
+                  <p><?php echo $experience['degree']; ?></p>
+                </div>
+              </div>
+          <?php  } ?>
         </div>
       </div>
       <hr>
