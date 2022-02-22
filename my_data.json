@@ -5,6 +5,16 @@
   "phone": "(123)456-7890",
   "email": "kevingomez554@gmail.com",
   "introduction": "Hello! I'm a third-year computer science student. Pls hire me.",
+  
+  "education":[
+    {
+      "college":"California State University, San Bernardino",
+      "year-standing":"Junior",
+      "degree":"Bachelor's of Science in Computer Science",
+    },
+  ]
+  
+  
   "experience":[
     {
       "title":"WEB DEVELOPER",
