@@ -21,7 +21,7 @@
         <nav class="nav flex-column">
           <img src="avatar.png" style="width:160px" alt="">
           <a class="nav-link" href="#about">About</a>
-          <a class="nav-link" href="#education">Education</a>
+          <a class="nav-link" href="#skills">Skills</a>
           <a class="nav-link" href="#experience">Experience</a>
         </nav>
       </nav>
@@ -39,9 +39,9 @@
         </div>
       </div>
       <hr>
-      <div id="education" class="content-item">
+      <div id="skills" class="content-item">
         <div class="vertical-center">
-          <h2>Education</h2>
+          <h2>Skills</h2>
           <p>...</p>
         </div>
       </div>
