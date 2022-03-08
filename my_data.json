@@ -5,6 +5,25 @@
   "phone": "(123)456-7890",
   "email": "kevingomez554@gmail.com",
   "introduction": "Hello! I'm a third-year computer science student. Pls hire me.",
+  
+  "skills":[
+    {
+      "title":"College Math Tutor",
+      "employer":"San Bernardino Valley College",
+      "period":"December 2021 - Present",
+      "description":"Tutor struggling math college students with their college algebra, trigonometry, and calculus homework."
+    },
+    {
+      "title":"Food Delivery Driver",
+      "employer":"DoorDash",
+      "period":"March 2019 - Present",
+      "description":"I deliver food to customers who order food through the app."
+    }
+  ]
+}
+
+  
+  
   "interests":[
     {
       "title":"College Math Tutor",
