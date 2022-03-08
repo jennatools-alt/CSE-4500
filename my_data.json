@@ -8,16 +8,16 @@
   
   "skills":[
     {
-      "title":"College Math Tutor",
-      "employer":"San Bernardino Valley College",
-      "period":"December 2021 - Present",
-      "description":"Tutor struggling math college students with their college algebra, trigonometry, and calculus homework."
+      "skills-1":"College Math Tutor",
+      "skills-2":"San Bernardino Valley College",
+      "skills-3":"December 2021 - Present",
+      "skills-4":"Tutor struggling math college students with their college algebra, trigonometry, and calculus homework."
     },
     {
-      "title":"Food Delivery Driver",
-      "employer":"DoorDash",
-      "period":"March 2019 - Present",
-      "description":"I deliver food to customers who order food through the app."
+      "skills-1":"Food Delivery Driver",
+      "skills-2":"DoorDash",
+      "skills-3":"March 2019 - Present",
+      "skills-4":"I deliver food to customers who order food through the app."
     }
   ]
 }
