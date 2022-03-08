@@ -42,9 +42,21 @@
       <div id="skills" class="content-item">
         <div class="vertical-center">
           <h2>Skills</h2>
-          <p>...</p>
+            <?php foreach($json-data['skills'] AS $skills) { ?>
+              <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="flex-grow-1">
+                  <h3 class="mb-0"><?php echo $skills['title']; ?></h3>
+                  <div class="subheading mb-3"><?php echo $skills['employer']; ?></div>
+                  <p><?php echo $skills['description']; ?></p>
+                </div>
+                <div class="flex-shrink-0">
+                  <span class="text-primary"><?php echo $skills['period']; ?></span>
+                </div>
+              </div>
+            <?php  } ?>
+          </div>
         </div>
-      </div>
+      </hr>
       <hr>
       <div id="interests" class="content-item">
         <div class="vertical-center">
