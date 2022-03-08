@@ -45,12 +45,12 @@
             <?php foreach($json-data['skills'] AS $skills) { ?>
               <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div class="flex-grow-1">
-                  <h3 class="mb-0"><?php echo $skills['title']; ?></h3>
-                  <div class="subheading mb-3"><?php echo $skills['employer']; ?></div>
-                  <p><?php echo $skills['description']; ?></p>
+                  <h3 class="mb-0"><?php echo $skills['skills-1']; ?></h3>
+                  <div class="subheading mb-3"><?php echo $skills['skills-2']; ?></div>
+                  <p><?php echo $skills['skills-4']; ?></p>
                 </div>
                 <div class="flex-shrink-0">
-                  <span class="text-primary"><?php echo $skills['period']; ?></span>
+                  <span class="text-primary"><?php echo $skills['skills-3']; ?></span>
                 </div>
               </div>
             <?php  } ?>
