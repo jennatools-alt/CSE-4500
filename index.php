@@ -44,7 +44,17 @@
           <div class="vertical-center">
              <h2>Skills</h2>
              <h4><?php echo $json_data['skills']; ?><h4>
-                 <p>...</p>
+                 <p> - HTML</p>
+                 <p> - CSS</p>
+                 <p> - JavaScript</p>
+                 <p> - ReactJs</p>
+                 <p> - Node.js</p>
+                 <p> - MongoDB</p>
+                 <p> - UNIX/LINUX Commnand Line</p>
+                 <p> - DOM Manipulation</p>
+                 <p> - Bash Command Line</p>
+                 <p> - Git, GitHub, and Version Control</p>
+                 <p> - NPM</p>
                 </div>
                </div> 
       
