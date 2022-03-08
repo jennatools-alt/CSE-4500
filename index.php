@@ -22,7 +22,7 @@
           <img src="avatar.png" style="width:160px" alt="">
           <a class="nav-link" href="#about">About</a>
           <a class="nav-link" href="#skills">Skills</a>
-          <a class="nav-link" href="#experience">Experience</a>
+          <a class="nav-link" href="#interests">Interests</a>
         </nav>
       </nav>
     </div>
@@ -34,7 +34,7 @@
           <div class="subheading mb-3">
             <?php echo $json_data['address']; ?> · <?php echo $json_data['phone']; ?> ·
             <a href="<?php echo $json_data['email']; ?>"><?php echo $json_data['email']; ?></a>
-          </div>
+            </div>
           <p><?php echo $json_data['introduction']; ?></p>
         </div>
       </div>
@@ -46,18 +46,18 @@
         </div>
       </div>
       <hr>
-      <div id="experience" class="content-item">
+      <div id="interests" class="content-item">
         <div class="vertical-center">
-          <h2>Experience</h2>
-          <?php foreach($json_data['experience'] AS $experience) { ?>
+          <h2>Interests</h2>
+          <?php foreach($json_data['interests'] AS $interests) { ?>
               <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div class="flex-grow-1">
-                  <h3 class="mb-0"><?php echo $experience['title']; ?></h3>
-                  <div class="subheading mb-3"><?php echo $experience['employer']; ?></div>
-                  <p><?php echo $experience['description']; ?></p>
+                  <h3 class="mb-0"><?php echo $interests['title']; ?></h3>
+                  <div class="subheading mb-3"><?php echo $interests['employer']; ?></div>
+                  <p><?php echo $interests['description']; ?></p>
                 </div>
                 <div class="flex-shrink-0">
-                  <span class="text-primary"><?php echo $experience['period']; ?></span>
+                  <span class="text-primary"><?php echo $interests['period']; ?></span>
                 </div>
               </div>
           <?php  } ?>
